@@ -1,7 +1,7 @@
 <html xmlns="http://222.w3.org/1999/xhtml"
       xmlns=:th="http://www.thymeleaf.or">
-    
-    
+
+
     <head th:fragment="head">
         <title> TECHSHOP </title>
         <meta charset="UTF-8"/>
@@ -12,8 +12,8 @@
         <script th:src="@{/webjars/bootstrap/js/bootstrap.min.js}"></script>
     </head>
     <body>
-        
-        
+
+
         <header th:fragment="header" class="header">
             <nav class ="navbar navbar-expander-sm navbar-dark bg-dark p-0">
                 <div class="comtainer">
@@ -47,18 +47,18 @@
             </section>
 
         </header>
-        
-        
-        
-        
+
+
+
+
         <footer th:fragment="footer" class="bg-info text-while mt-5 p-2">
-                 <div class="col">
-            <p class="lead text-center">
-                &COPY [[#{plantilla.derechos}]]
-                
-            </p>
+            <div class="col">
+                <p class="lead text-center">
+                    &COPY [[#{plantilla.derechos}]]
+
+                </p>
             </div>
         </footer>
-        
+
     </body>
 </html>
